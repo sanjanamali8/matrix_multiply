@@ -1,0 +1,28 @@
+
+# Ignore object files produced by nvcc and other compilers
+*.o
+*.obj
+
+# nvcc-specific binary outputs (optional)
+*.ptx
+*.cubin
+*.fatbin
+
+# Build directories
+build/
+dist/
+cmake_build/
+
+# Executable files
+*.exe
+*.out
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
