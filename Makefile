@@ -6,7 +6,7 @@ SOURCES = $(wildcard *.cu)
 TARGETS = $(patsubst %.cu,$(BUILD_DIR)/%,$(SOURCES))
 
 # CUDA compiler flags
-NVCC_FLAGS = -O2 -arch=sm_80
+NVCC_FLAGS = -O2 -arch=sm_70
 
 # Default target
 all: $(BUILD_DIR) $(TARGETS)
